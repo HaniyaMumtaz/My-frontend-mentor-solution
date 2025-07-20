@@ -1,0 +1,90 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+#container {
+  text-align: center;
+  padding: 20px;
+}
+
+#overalldiv {
+  background-color: hsl(0, 0%, 12%);
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 350px;
+  margin: auto;
+}
+
+#image {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.name {
+  margin: 10px 0 5px;
+  font-size: 24px;
+}
+
+#green {
+  color: hsl(75, 94%, 57%);
+  margin: 5px 0 20px;
+  font-size: 14px;
+}
+
+.paragraph {
+  font-size: 14px;
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 80%);
+}
+
+.buttons button {
+  width: 100%;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  border: none;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+
+.attribution {
+  font-size: 11px;
+  color: hsl(0, 0%, 60%);
+  margin-top: 30px;
+}
+
+.attribution a {
+  color: hsl(211, 55%, 45%);
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  #overalldiv {
+    max-width: 400px;
+    padding: 40px;
+  }
+
+  .buttons button {
+    padding: 14px;
+    font-size: 16px;
+  }
+}
